@@ -1,3 +1,5 @@
-# Smile-Detection-Algorithm
+# Smile and Face-Detection-Algorithm
 
 In this repository using OpenCV Library I have written an algorithm which detects a human face in live feed and finds whether he is smiling or not. When you run the program, live camera popup window will open up and it will be recording. If it captures your face, then it will find whether you are smiling or not. For this you need to give access to your camera and no other windows which use camera should not be open while running the program. For this we need to *xml extension files*. One is **haarcascade_frontalface_default.xml** and other is **haarcascade_smile.xml**. You can download these two files from the *Github* as raw contents and save them in the same destination as of your code.
+
+Also in this repository I am uploading another algorithm which will detect only faces, i.e., while recording or in a video live feed it will detect whether there is a human face or not in front of the camera. It also requires **haarcascade_frontalface_default.xml** and I am uploading the files even in this repository.
